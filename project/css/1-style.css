@@ -25,9 +25,11 @@ body{
 .nav-scroll-link{
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     background: #ffffff;
     /* margin: 0 !important; */
-     width: 100%;
+     /* width: 100%; */
    
     
     animation: navscroll 1s linear;
@@ -224,13 +226,13 @@ color: #ffffff;
 .new{
     position: absolute;
     top: 0px;
-    left: 0;
-    /* right: 0px; */
-    width: 50px;
-    height: 30px;
-    border-radius:  10px 10px 50px 10px  ;
+    /* left: 0; */
+    right: 0px;
+    width: 60px;
+    height: 35px;
+    border-radius:  10px 10px 10px 50px  ;
     background-color: red;
-    padding: 0 5px;
+    padding: 2px 12px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -387,13 +389,13 @@ footer{
     .home{
         /* position: relative; */
     }
-    .freshio-logo{
+    /* .freshio-logo{
         margin: 5px auto;
     }
     .freshio-logo img{
        margin-left: 150px !important;
         
-    }
+    } */
     .navbar{
         margin-top: 20px;
     }
@@ -404,7 +406,7 @@ footer{
     }
     
     .divider{
-        width: 200px !important;
+        /* width: 200px !important; */
         margin: 0 !important;
         border: 1px solid #e3e3e3 !important;
     }
@@ -498,24 +500,26 @@ footer{
         /* position: relative; */
     }
     .freshio-logo{
-        margin: 5px 0;
+        margin: 5px 10px auto auto !important;
     }
     .freshio-logo img{
-       margin-left: 60px !important;
+       width: 150px !important;
+       margin-left: 50px !important;
+       margin-bottom: 10px !important;
         
     }
     .navbar{
         margin-top: 20px;
     }
-    .header-left{
-        width: 100%;
-        padding: 5px ;
-        margin: 0;
-        margin-top: 33px !important;
+     .header-left{
+      margin: 0 !important;
+       width: 100% !important;
+        
+        
     }
     .header-left input{
         width: 35px !important;
-        margin: 0;
+        margin: 0 !important;
         font-size: 15px;
         
     }
@@ -525,20 +529,24 @@ footer{
     }
     .search{
         font-size: 15px !important;
-        margin: 0;
-    }
-    .header-right-box{
-        margin-top: 33px !important;
+        margin: 0 !important;
+    } 
+ .header-right-box{
+        margin-top: 10px !important;
     }
     
     .scroll-to-next{
         margin-top: 80px !important;
     }
+    /* .header-right-box{
+        margin: 0 !important;
+    } */
     .header-right{
         width: 30px;
         height: 30px;
-        margin-right: 3px;
+        margin-right: 2px;
         border-radius: 50%;
+        /* margin: 10px !important; */
         
     }
     .header-right i{
@@ -563,6 +571,19 @@ footer{
         line-height: 20px;
         font-size: 13px;
     }
+    .header-divider{
+        /* width: 100% !important; */
+        display: none !important;
+    }
+    .shop-divider{
+        width: 100% !important;
+    }
+    .delete .divider{
+        display: none !important;
+    }
+    .custom-bar{
+        margin: 0 !important;
+    }
     .home-text{
         right: 0px !important;
         top: 5px !important;
@@ -581,7 +602,7 @@ footer{
         margin-right: 5px;
     }
     .divider{
-        width: 100px !important;
+        /* width: 100px !important; */
         margin: 0 !important;
         border: 1px solid #e3e3e3 !important;
     }
@@ -667,12 +688,12 @@ footer{
         width: 100% !important;
         margin-top: 10px !important;
     }
-    .nav-scroll-link{
-        top: 42px !important;
+    /* .nav-scroll-link{
+        top: 0 !important;
          width: 100% !important; 
         z-index: 52;
     }
-        
+         */
         
     
     
